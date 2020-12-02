@@ -24,6 +24,8 @@ em, i {
 
 #fullpage .section:nth-child(1){
     background: url(../img/bg1.jpeg) no-repeat;
+    text-align: left ;
+    padding-left: 800px;
 }
 
 #fullpage .section:nth-child(2){
@@ -42,6 +44,10 @@ em, i {
     /* background: url(../img/bg1.jpeg) no-repeat; */
 }
 
+#fp-nav ul li a span {
+    background: #fff;
+}
+
 /* navbar position */
 #menu {
     position: fixed;
@@ -57,7 +63,30 @@ em, i {
    font-size: 20px;
 }
 
-#menu a {
+#menu li a {
     display: block;
-    
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+#menu .active a {
+    background-color:navy;
+}
+/* shared styles */
+.w {
+    width: 1000px;
+    margin: auto;
+}
+
+#fullpage .section:nth-child(1) p {
+    color: #fff;
+    font-size: 30px;
+}
+
+#fullpage .section:nth-child(1) h1 {
+    color: #fff;
+    font-size: 55px;
 }
