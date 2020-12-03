@@ -86,6 +86,7 @@ html {
 
 /* shared styles */
 .wrapper {
+    /* position: relative; */
     width: 1000px;
     margin: auto;
 }
@@ -166,3 +167,45 @@ html {
     display: inline-block;
     margin: 38px 25px;
 }
+
+/* projects */
+.section:nth-child(4) li {
+    float: left;
+    width: 250px;
+    margin: 0 15px;
+    background: white;
+    text-align: center;
+    border: 5px #fff solid;
+}
+
+.section:nth-child(4) li img {
+    width: 100%;
+}
+
+.section:nth-child(4) li h3 {
+    line-height: 60px;
+    color: #333
+} 
+
+.section:nth-child(4) .zp {
+    width: 876px;
+    margin: 30px auto 0;
+}
+
+
+.fp-prev, .fp-next {
+    position: absolute;
+    /* width: 34px !important;
+    height: 55px !important; */
+    /* border:none !important */
+}
+
+/* .fp-prev {
+    left: 20px;
+    background: url(../img/left_arrow.png)
+}
+
+.fp-next {
+    right: 20px;
+    background: url(../img/right_arrow.png)
+} */
