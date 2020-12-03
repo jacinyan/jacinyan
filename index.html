@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/fullpage.min.css">
-        <!-- our own style -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- check animate.css for more-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-        <!-- reference JQuery from Google, before fullPage -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!-- reference fullPage.min.js-->
-        <script src="js/fullpage.min.js"></script>
-        <script src="js/myjs.js"></script>
-        <title>Jacin Yan</title>
-    </head>
-    <body>
-        <!-- nav bar -->
-        <ul id="menu">
-            <li data-menuanchor="page1"><a href="#page1">Home</a></li>
-            <li data-menuanchor="page2"><a href="#page2">About</a></li>
-            <li data-menuanchor="page3"><a href="#page3">Experience</a></li>
-            <li data-menuanchor="page4"><a href="#page4">Projects</a></li>
-            <li data-menuanchor="page5"><a href="#page5">Contact</a></li>
-        </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <!-- our own style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- check animate.css for more-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- reference JQuery from Google, before fullPage -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- reference fullPage.min.js-->
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/myjs.js"></script>
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <title>Jacin Yan</title>
+</head>
 
-        <div id="fullpage">
-            <div class="section">
-                <div class="w">
-                    <p>Hi!I'm Jacin</p>
-                    <h1>WEB DEVELOPER</h1>
+<body>
+    <!-- nav bar -->
+    <ul id="menu">
+        <li data-menuanchor="page1"><a href="#page1">Home</a></li>
+        <li data-menuanchor="page2"><a href="#page2">About</a></li>
+        <li data-menuanchor="page3"><a href="#page3">Experience</a></li>
+        <li data-menuanchor="page4"><a href="#page4">Projects</a></li>
+        <li data-menuanchor="page5"><a href="#page5">Contact</a></li>
+    </ul>
+
+    <div id="fullpage">
+        <!-- section 1 -->
+        <div class="section">
+            <div class="wrapper">
+                <p>Hi!I'm Jacin</p>
+                <h1>WEB DEVELOPER</h1>
+            </div>
+        </div>
+        <!-- section 2 -->
+        <div class="section">
+            <div class="wrapper">
+                <div class="title">
+                    <p>ABOUT<br /> ME</p>
+                </div>
+                <!-- profile/summary -->
+                <div class="about">
+                    <div class="fl text"><p>I was a structural engineer for seven years but now going down a web developer career path. I discovered this greater passion on an occasion when I was exploring the open API for a drafting application.</p>
+                    <p>I enjoy creating software applications using a variety of techs, and the contentment comes from that I can build something fun and interesting to use. My current tech stack includes the MERN stack and RoR.</p>
+                    <p>As both a hobby and career commitment, I would read books and articles on, such as Computer Organisation and Architecture, Operating Systems and Data Structure, so as to "make up for the lost time".</p>
+                    </div>
+                    <div class="fr headshot"><img src="img/headshot.jpeg" alt=""></div>
                 </div>
             </div>
-            <div class="section">section2</div>
-            <div class="section">section3</div>
-            <div class="section">section4</div>
-            <div class="section">section5</div>
         </div>
-        
-    </body>
+        <div class="section">section3</div>
+        <div class="section">section4</div>
+        <div class="section">section5</div>
+    </div>
+
+</body>
 
 </html>
