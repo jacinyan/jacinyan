@@ -86,7 +86,7 @@ html {
 
 /* shared styles */
 .wrapper {
-    /* position: relative; */
+    position: relative;
     width: 1000px;
     margin: auto;
 }
@@ -195,17 +195,19 @@ html {
 
 .fp-prev, .fp-next {
     position: absolute;
-    /* width: 34px !important;
-    height: 55px !important; */
+    /* width: 10px !important;
+    height: 10px !important; */
     /* border:none !important */
 }
 
-/* .fp-prev {
+.fp-prev {
+    top: 300px;
     left: 20px;
-    background: url(../img/left_arrow.png)
+    /* background: url(../img/left_arrow.png) */
 }
 
 .fp-next {
+    top: 300px;
     right: 20px;
-    background: url(../img/right_arrow.png)
-} */
+    /* background: url(../img/right_arrow.png) */
+}
