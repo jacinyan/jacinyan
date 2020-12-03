@@ -5,7 +5,7 @@
 
 a {
     /* second thought, have it removed first */
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 li {
@@ -13,7 +13,8 @@ li {
     list-style: none;
 }
 
-em, i {
+em,
+i {
     /* removed italic and oblique */
     font-style: normal;
 }
@@ -22,30 +23,31 @@ html {
     /* global font style */
     font-family: 'Oswald', sans-serif;
 }
+
 /* background image */
-#fullpage .section{
+#fullpage .section {
     background-size: cover;
 }
 
-#fullpage .section:nth-child(1){
+#fullpage .section:nth-child(1) {
     background: url(../img/bg1.jpeg) no-repeat;
-    text-align: left ;
+    text-align: left;
     padding-left: 770px;
 }
 
-#fullpage .section:nth-child(2){
+#fullpage .section:nth-child(2) {
     /* background: url(../img/bg1.jpeg) no-repeat; */
 }
 
-#fullpage .section:nth-child(3){
+#fullpage .section:nth-child(3) {
     /* background: url(../img/bg1.jpeg) no-repeat; */
 }
 
-#fullpage .section:nth-child(4){
+#fullpage .section:nth-child(4) {
     /* background: url(../img/bg1.jpeg) no-repeat; */
 }
 
-#fullpage .section:nth-child(5){
+#fullpage .section:nth-child(5) {
     /* background: url(../img/bg1.jpeg) no-repeat; */
 }
 
@@ -64,8 +66,9 @@ html {
 }
 
 #menu li {
-   margin-bottom: 20px;;
-   font-size: 18px;
+    margin-bottom: 20px;
+    ;
+    font-size: 18px;
 }
 
 #menu li a {
@@ -78,8 +81,9 @@ html {
 }
 
 #menu .active a {
-    background-color:goldenrod;
+    background-color: goldenrod;
 }
+
 /* shared styles */
 .wrapper {
     width: 1000px;
@@ -144,4 +148,20 @@ html {
 
 #fullpage .section:nth-child(2) .text p {
     line-height: 50px;
+}
+
+/* por */
+.por {
+    text-align: center;
+    color: #fff;
+}
+
+.por h3 {
+    font-size: 35px;
+    margin: -130px 0 0 0;
+}
+
+.por li {
+    display: inline-block;
+    margin: 60px 25px;
 }
