@@ -90,6 +90,7 @@ html {
     margin: auto;
 }
 
+/* text and image, two sides design, son absolute and father relative */
 .fl {
     float: left;
 }
@@ -158,10 +159,10 @@ html {
 
 .por h3 {
     font-size: 35px;
-    margin: -130px 0 0 0;
+    margin: -20px 0 20px 0;
 }
 
 .por li {
     display: inline-block;
-    margin: 60px 25px;
+    margin: 38px 25px;
 }
