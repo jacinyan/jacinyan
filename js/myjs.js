@@ -15,18 +15,9 @@ $(function () {
         // When loading a certain section a function is executed, link means the name of the anchor, index means the current view, index starts from 1
         afterLoad: function(origin, destination, direction){
             var loadedSection = this;
-            //using index
-            if(destination.index == 0){
-                alert("You are on page 1");
-            }
-    
             //using anchorLink
-            if(destination.anchor == 'page2'){
-                alert("Now it's page2");
-            }
-
-            if(destination.anchor == 'page5') {
-                alert('Hey, look who is at page 5!')
+            if(destination.anchor == 'page1') {
+                $('.greet').addClass('animate__animated animate__fadeInUp');
             }
         },
     });
