@@ -155,7 +155,7 @@ html {
 .section:nth-child(4) li {
     float: left;
     width: 250px;
-    margin: 430px 15px;
+    margin: 0px 15px;
     background: white;
     text-align: center;
     border: 5px #fff solid;
@@ -183,13 +183,13 @@ html {
 }
 
 .fp-prev {
-    top: 330px;
+    top: 384px;
     left: 20px;
     /* background: url(../img/left_arrow.png) */
 }
 
 .fp-next {
-    top: 330px;
+    top: 384px;
     right: 20px;
     /* background: url(../img/right_arrow.png) */
 }

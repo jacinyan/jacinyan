@@ -11,7 +11,23 @@ $(function () {
         menu: '#menu',
         // loop through the site
         continuousVertical: true,
-        easingcss3: 'cubic-bezier(0.175, 0.885, 0.032, 1)' ,
-        
+        easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1)',
+        // When loading a certain section a function is executed, link means the name of the anchor, index means the current view, index starts from 1
+        afterLoad: function(origin, destination, direction){
+            var loadedSection = this;
+            //using index
+            if(destination.index == 0){
+                alert("You are on page 1");
+            }
+    
+            //using anchorLink
+            if(destination.anchor == 'page2'){
+                alert("Now it's page2");
+            }
+
+            if(destination.anchor == 'page5') {
+                alert('Hey, look who is at page 5!')
+            }
+        },
     });
 })
