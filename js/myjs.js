@@ -6,7 +6,7 @@ $(function () {
         // navigation dots on the right
         navigation: true,
         // set a corresponding anchor for each section
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', ],
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
         // binding menu. with relevant attributes and the values of anchors set up, a scrolling menu is enabled. Used eventListener
         menu: '#menu',
         // loop through the site
