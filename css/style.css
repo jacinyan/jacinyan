@@ -155,7 +155,7 @@ html {
 .section:nth-child(4) li {
     float: left;
     width: 250px;
-    margin: 400px 15px;
+    margin: 430px 15px;
     background: white;
     text-align: center;
     border: 5px #fff solid;
@@ -172,7 +172,7 @@ html {
 
 .section:nth-child(4) .works {
     width: 876px;
-    margin: 30px auto 0;
+    margin: 0 auto;
 }
 
 .fp-prev, .fp-next {
@@ -200,14 +200,38 @@ html {
 }
 
 .section:nth-child(5) img {
-    margin-top: -1000px;
+    margin-top: -500px;
 }
 
-.line {
+.line, .list {
     position: absolute;
     left: 50%;
     transform:translateX(-50%);
     width: 5px;
     height: 300px;
     background-color: #fff;
+}
+
+.list div:nth-child(1){
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 100px;
+    height: 60px;
+}
+
+.list div:nth-child(2){
+    position: absolute;
+    top: 180px;
+    left: -100px;
+    width: 100px;
+    height: 60px;
+}
+
+.list div:nth-child(3){
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    width: 100px;
+    height: 60px;
 }
