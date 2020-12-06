@@ -13,8 +13,7 @@ li {
     list-style: none;
 }
 
-em,
-i {
+em, i {
     /* removed italic and oblique */
     font-style: normal;
 }
@@ -74,7 +73,7 @@ html {
     margin: auto;
 }
 
-/* text and image, two sides design, son absolute and father relative */
+/* text and image, two parts design, son absolute and father relative */
 .fl {
     float: left;
 }
@@ -234,4 +233,46 @@ html {
     left: 10px;
     width: 100px;
     height: 60px;
+}
+
+/* lapse effect in section 3 */
+
+.delay1 {
+    animation-delay: 0.1s;
+}
+
+.delay2 {
+    animation-delay: 0.2s;
+}
+
+.delay3 {
+    animation-delay: 0.3s;
+}
+
+.delay4 {
+    animation-delay: 0.4s;
+}
+
+.delay5 {
+    animation-delay: 0.5s;
+}
+
+.delay6 {
+    animation-delay: 0.6s;
+}
+
+.delay7 {
+    animation-delay: 0.7s;
+}
+
+.delay8 {
+    animation-delay: 0.8s;
+}
+
+.delay9 {
+    animation-delay: 0.9s;
+}
+
+.delay10 {
+    animation-delay: 1s;
 }
