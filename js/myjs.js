@@ -6,7 +6,7 @@ $(function () {
         // navigation dots on the right
         navigation: true,
         // set a corresponding anchor for each section
-        anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+        anchors: ['home', 'about', 'skills', 'projects', 'contact'],
         // binding menu. with relevant attributes and the values of anchors set up, a scrolling menu is enabled.  eventListener is actually used
         menu: '#menu',
         // loop through the site
@@ -17,18 +17,18 @@ $(function () {
         // afterLoad: function (origin, destination, direction) {
         //     var loadedSection = this;
         //     //using anchorLink
-        //     if (destination.anchor == 'page1') {
+        //     if (destination.anchor == 'home') {
         //         // $('.greet').addClass('animate__animated animate__fadeIn');
         //         // $('.who').addClass('animate__animated animate__fadeIn');
         //     }
 
-        //     if (destination.anchor == 'page2') {
+        //     if (destination.anchor == 'about') {
         //         $('.title').addClass('animate__animated animate__slideInRight');
         //         $('.headshot').addClass('animate__animated animate__fadeIn');
         //         $('.text').addClass('animate__animated animate__slideInUp');
         //     }
 
-        //     if (destination.anchor == 'page3') {
+        //     if (destination.anchor == 'skills') {
         //         $('.tech1').addClass('delay1 animate__animated animate__lightSpeedInRight');
         //         $('.tech2').addClass('delay2 animate__animated animate__lightSpeedInRight');
         //         $('.tech3').addClass('delay3 animate__animated animate__lightSpeedInRight');
@@ -41,7 +41,7 @@ $(function () {
         //         $('.tech10').addClass('delay10 animate__animated animate__lightSpeedInRight');
         //     }
 
-        //     if (destination.anchor == 'page4') {
+        //     if (destination.anchor == 'projects') {
         //         $('.works').addClass('animate__animated animate__flipInX');
         //     }
         // },
@@ -49,18 +49,18 @@ $(function () {
         onLeave: function (origin, destination, direction) {
             var leavingSection = this;
 
-            if (destination.anchor == 'page1') {
+            if (destination.anchor == 'home') {
                 // $('.greet').addClass('animate__animated animate__fadeIn');
                 // $('.who').addClass('animate__animated animate__fadeIn');
             }
 
-            if (destination.anchor == 'page2') {
+            if (destination.anchor == 'about') {
                 $('.title').addClass('animate__animated animate__slideInRight');
                 $('.headshot').addClass('animate__animated animate__fadeIn');
                 $('.text').addClass('animate__animated animate__slideInUp');
             }
 
-            if (destination.anchor == 'page3') {
+            if (destination.anchor == 'skills') {
                 $('.tech1').addClass('delay1 animate__animated animate__lightSpeedInRight');
                 $('.tech2').addClass('delay2 animate__animated animate__lightSpeedInRight');
                 $('.tech3').addClass('delay3 animate__animated animate__lightSpeedInRight');
@@ -73,23 +73,23 @@ $(function () {
                 $('.tech10').addClass('delay10 animate__animated animate__lightSpeedInRight');
             }
 
-            if (destination.anchor == 'page4') {
+            if (destination.anchor == 'projects') {
                 $('.works').addClass('animate__animated animate__flipInX');
             }
 
             //after leaving section 2
-            if (origin.anchor == 'page1') {
+            if (origin.anchor == 'home') {
                 // $('.greet').removeClass('animate__animated animate__fadeIn');
                 // $('.who').removeClass('animate__animated animate__fadeIn');
             }
 
-            if (origin.anchor == 'page2') {
+            if (origin.anchor == 'about') {
                 $('.title').removeClass('animate__animated animate__slideInRight');
                 $('.headshot').removeClass('animate__animated animate__fadeIn');
                 $('.text').removeClass('animate__animated animate__slideInUp');
             }
 
-            if (origin.anchor == 'page3') {
+            if (origin.anchor == 'skills') {
                 $('.tech1').removeClass('delay1 animate__animated animate__lightSpeedInRight');
                 $('.tech2').removeClass('delay2 animate__animated animate__lightSpeedInRight');
                 $('.tech3').removeClass('delay3 animate__animated animate__lightSpeedInRight');
@@ -102,7 +102,7 @@ $(function () {
                 $('.tech10').removeClass('delay10 animate__animated animate__lightSpeedInRight');
             }
 
-            if (origin.anchor == 'page4') {
+            if (origin.anchor == 'projects') {
                 $('.works').removeClass('animate__animated animate__flipInX');
             }
 
