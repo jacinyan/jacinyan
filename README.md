@@ -9,7 +9,7 @@ A little about me:
 - 😂 I am a fan of memes..
 <br><br>
 
-Reach out to me by [Email](jacinjiyan@gmail.com), or find me on [Twitter](https://twitter.com/jacinjiyan) and [Linkedin](https://www.linkedin.com/in/jacin-ji-yan)!
+Reach out to me by [Email](https://jacinjiyan@gmail.com), or find me on [Twitter](https://twitter.com/jacinjiyan) and [Linkedin](https://www.linkedin.com/in/jacin-ji-yan)!
 
 
 
