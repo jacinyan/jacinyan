@@ -294,16 +294,15 @@ html {
 
     /* section 1 */
     #fullpage .section:nth-child(1) {
-        background: url(../img/bg1.jpeg) no-repeat;
-        background-size: 10rem;
-        text-align: center;
+        background: url(../img/bg2.jpeg) no-repeat;
+        background-size: 47%;
+        text-align: left;
     }
 
     #fullpage .section:nth-child(1) .wrapper {
-        position: static;
+        /* position: static; */
         width: 15rem;
-        margin-left: -25rem;
-        margin-right: 0;
+        margin: -8rem 0 0 -27rem;
     }
 
     #fullpage .section:nth-child(1) p {
