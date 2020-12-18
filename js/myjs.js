@@ -49,9 +49,10 @@ $(function () {
         onLeave: function (origin, destination, direction) {
             var leavingSection = this;
 
+            //onLeave destination
             if (destination.anchor == 'home') {
-                // $('.greet').addClass('animate__animated animate__fadeIn');
-                // $('.who').addClass('animate__animated animate__fadeIn');
+                $('.greet').addClass('animate__animated animate__fadeInDown');
+                $('.who').addClass('animate__animated animate__fadeInDown');
             }
 
             if (destination.anchor == 'about') {
@@ -77,10 +78,14 @@ $(function () {
                 $('.works').addClass('animate__animated animate__flipInX');
             }
 
-            //after leaving section 2
+            if (destination.anchor == 'contact') {
+                $('.resume').addClass('animate__animated animate__jello');
+            }
+
+            //onLeave origin
             if (origin.anchor == 'home') {
-                // $('.greet').removeClass('animate__animated animate__fadeIn');
-                // $('.who').removeClass('animate__animated animate__fadeIn');
+                $('.greet').removeClass('animate__animated animate__fadeInDown');
+                $('.who').removeClass('animate__animated animate__fadeInDown');
             }
 
             if (origin.anchor == 'about') {
@@ -106,6 +111,12 @@ $(function () {
                 $('.works').removeClass('animate__animated animate__flipInX');
             }
 
+            if (origin.anchor == 'contact') {
+                $('.resume').removeClass('animate__animated animate__jello');
+            }
+
         }
     });
 })
+
+
