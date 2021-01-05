@@ -201,6 +201,11 @@ html {
     background: white;
     text-align: center;
     border: 5px #fff solid;
+    transition: all .4s;
+}
+
+.section:nth-child(4) li:hover{
+    transform:scale(1.1)
 }
 
 .section:nth-child(4) li img {
@@ -296,11 +301,9 @@ html {
     #fullpage .section:nth-child(1) {
         background: url(../img/bg2.jpeg) no-repeat;
         background-size: 47%;
-        text-align: left;
     }
 
     #fullpage .section:nth-child(1) .wrapper {
-        /* position: static; */
         width: 15rem;
         margin: -8rem 0 0 -27rem;
     }
