@@ -204,8 +204,8 @@ html {
     transition: all .4s;
 }
 
-.section:nth-child(4) li:hover{
-    transform:scale(1.1)
+.section:nth-child(4) li:hover {
+    transform: scale(1.1)
 }
 
 .section:nth-child(4) li img {
@@ -289,49 +289,70 @@ html {
 @media screen and (min-width: 320px) and (max-width: 479px) {
 
     /* shared styles */
-    #menu {
-        display: none;
-    }
 
     html {
         font-size: 21.33px
     }
 
-    /* section 1 */
-    #fullpage .section:nth-child(1) {
-        background: url(../img/bg2.jpeg) no-repeat;
-        background-size: 47%;
+    #menu {
+        display: none;
     }
+
+    body {
+        position: relative;
+    }
+
+    #fp-nav {
+        position: absolute;
+        top: 700px;
+    }
+
+    /* section 1 */
 
     #fullpage .section:nth-child(1) .wrapper {
         width: 15rem;
         margin: -8rem 0 0 -27rem;
     }
 
+    #fullpage .section:nth-child(1) {
+        background: url(../img/bg2.jpeg) no-repeat;
+        background-size: 47%;
+    }
+
     #fullpage .section:nth-child(1) p {
         color: #fff;
         font-size: 1rem;
     }
-    
+
     #fullpage .section:nth-child(1) h1 {
         color: #fff;
         font-size: 1rem;
     }
 
     /* section 2 */
+
+    #fullpage .section:nth-child(2) .wrapper {
+        width: 15rem;
+        margin: auto;
+    }
+
     .title {
         position: relative;
-        height: 84px;
-        margin-top: 20px;
+        height: 4rem;
+        margin-top: 1.5rem;
     }
-    
-    .title p {
+
+    .title .about {
         position: absolute;
         right: 0px;
         top: 0px;
         color: white;
         font-size: 2rem;
         text-align: center;
+    }
+
+    .about .headshot {
+        display: none
     }
 
 }
