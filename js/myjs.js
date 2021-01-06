@@ -46,8 +46,8 @@ $(function () {
         //     }
         // },
         // onLeave callback is fired once the user leaves a section, in the transition to the new section
-        onLeave: function (origin, destination, direction) {
-            var leavingSection = this;
+        onLeave: function (origin, destination, _) {
+            // var leavingSection = this;
 
             //onLeave destination
             if (destination.anchor == 'home') {
