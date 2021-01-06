@@ -304,7 +304,7 @@ html {
 
     #fp-nav {
         position: absolute;
-        top: 700px;
+        top: 32rem;
     }
 
     /* section 1 */
@@ -342,18 +342,35 @@ html {
         margin-top: 1.5rem;
     }
 
-    .title .about {
+    .title p {
         position: absolute;
+        left: 0px!important;
+    }
+
+    .title .about {
+        /* position: absolute; */
         right: 0px;
         top: 0px;
         color: white;
-        font-size: 2rem;
         text-align: center;
     }
 
     .about .headshot {
         display: none
     }
+
+    #fullpage .section:nth-child(2) .about .text {
+        width: 16rem;
+        height: 14rem;
+        margin:0 auto 15rem;
+        font-size: 0.85rem;
+    }
+
+    #fullpage .section:nth-child(2) .text p {
+        line-height: 1.65rem;
+    }
+
+   
 
 }
 
