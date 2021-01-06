@@ -294,10 +294,6 @@ html {
         font-size: 21.33px
     }
 
-    #menu {
-        display: none;
-    }
-
     body {
         position: relative;
     }
@@ -305,6 +301,10 @@ html {
     #fp-nav {
         position: absolute;
         top: 31rem;
+    }
+
+    #menu {
+        display: none;
     }
 
     /* section 1 */
@@ -320,12 +320,10 @@ html {
     }
 
     #fullpage .section:nth-child(1) p {
-        color: #fff;
         font-size: 1rem;
     }
 
     #fullpage .section:nth-child(1) h1 {
-        color: #fff;
         font-size: 1rem;
     }
 
@@ -337,29 +335,20 @@ html {
     }
 
     .title {
-        position: relative;
+        top: 0px;
         height: 4rem;
         margin-top: 1.5rem;
     }
 
     .title p {
-        position: absolute;
         left: 0px!important;
     }
 
-    .title .about {
-        /* position: absolute; */
-        right: 0px;
-        top: 0px;
-        color: white;
-        text-align: center;
-    }
-
-    .about .headshot {
+    #fullpage .section:nth-child(2) .headshot {
         display: none
     }
 
-    #fullpage .section:nth-child(2) .about .text {
+    #fullpage .section:nth-child(2)  .text {
         width: 16rem;
         height: 14rem;
         margin:0 auto 15rem;
