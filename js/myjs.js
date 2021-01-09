@@ -55,10 +55,21 @@ $(function () {
                 $('.who').addClass('animate__animated animate__fadeInDown');
             }
 
+            if (origin.anchor == 'home') {
+                $('.greet').removeClass('animate__animated animate__fadeInDown');
+                $('.who').removeClass('animate__animated animate__fadeInDown');
+            }
+
             if (destination.anchor == 'about') {
                 $('.title').addClass('animate__animated animate__slideInRight');
                 $('.headshot').addClass('animate__animated animate__fadeIn');
                 $('.text').addClass('animate__animated animate__slideInUp');
+            }
+
+            if (origin.anchor == 'about') {
+                $('.title').removeClass('animate__animated animate__slideInRight');
+                $('.headshot').removeClass('animate__animated animate__fadeIn');
+                $('.text').removeClass('animate__animated animate__slideInUp');
             }
 
             if (destination.anchor == 'skills') {
@@ -74,26 +85,6 @@ $(function () {
                 $('.tech10').addClass('delay10 animate__animated animate__lightSpeedInRight');
             }
 
-            if (destination.anchor == 'projects') {
-                $('.works').addClass('animate__animated animate__flipInX');
-            }
-
-            if (destination.anchor == 'contact') {
-                $('.resume').addClass('animate__animated animate__jello');
-            }
-
-            //onLeave origin
-            if (origin.anchor == 'home') {
-                $('.greet').removeClass('animate__animated animate__fadeInDown');
-                $('.who').removeClass('animate__animated animate__fadeInDown');
-            }
-
-            if (origin.anchor == 'about') {
-                $('.title').removeClass('animate__animated animate__slideInRight');
-                $('.headshot').removeClass('animate__animated animate__fadeIn');
-                $('.text').removeClass('animate__animated animate__slideInUp');
-            }
-
             if (origin.anchor == 'skills') {
                 $('.tech1').removeClass('delay1 animate__animated animate__lightSpeedInRight');
                 $('.tech2').removeClass('delay2 animate__animated animate__lightSpeedInRight');
@@ -107,8 +98,16 @@ $(function () {
                 $('.tech10').removeClass('delay10 animate__animated animate__lightSpeedInRight');
             }
 
+            if (destination.anchor == 'projects') {
+                $('.works').addClass('animate__animated animate__flipInX');
+            }
+
             if (origin.anchor == 'projects') {
                 $('.works').removeClass('animate__animated animate__flipInX');
+            }
+
+            if (destination.anchor == 'contact') {
+                $('.resume').addClass('animate__animated animate__jello');
             }
 
             if (origin.anchor == 'contact') {
