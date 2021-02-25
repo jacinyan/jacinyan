@@ -51,67 +51,67 @@ $(function () {
 
             //onLeave destination
             if (destination.anchor == 'home') {
-                $('.greet').addClass('animate__animated animate__fadeInDown');
-                $('.who').addClass('animate__animated animate__fadeInDown');
+                $('.greet').addClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
+                $('.who').addClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'home') {
-                $('.greet').removeClass('animate__animated animate__fadeInDown');
-                $('.who').removeClass('animate__animated animate__fadeInDown');
+                $('.greet').removeClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
+                $('.who').removeClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
             }
 
             if (destination.anchor == 'about') {
-                $('.title').addClass('animate__animated animate__slideInRight');
-                $('.headshot').addClass('animate__animated animate__fadeIn');
-                $('.text').addClass('animate__animated animate__slideInUp');
+                $('.title').addClass('animate__animated animate__slideInRight -webkit-transform:transition3d(0,0,0');
+                $('.headshot').addClass('animate__animated animate__fadeIn -webkit-transform:transition3d(0,0,0');
+                $('.text').addClass('animate__animated animate__slideInUp -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'about') {
-                $('.title').removeClass('animate__animated animate__slideInRight');
-                $('.headshot').removeClass('animate__animated animate__fadeIn');
-                $('.text').removeClass('animate__animated animate__slideInUp');
+                $('.title').removeClass('animate__animated animate__slideInRight -webkit-transform:transition3d(0,0,0');
+                $('.headshot').removeClass('animate__animated animate__fadeIn -webkit-transform:transition3d(0,0,0');
+                $('.text').removeClass('animate__animated animate__slideInUp -webkit-transform:transition3d(0,0,0');
             }
 
             if (destination.anchor == 'skills') {
-                $('.tech1').addClass('delay1 animate__animated animate__lightSpeedInRight');
-                $('.tech2').addClass('delay2 animate__animated animate__lightSpeedInRight');
-                $('.tech3').addClass('delay3 animate__animated animate__lightSpeedInRight');
-                $('.tech4').addClass('delay4 animate__animated animate__lightSpeedInRight');
-                $('.tech5').addClass('delay5 animate__animated animate__lightSpeedInRight');
-                $('.tech6').addClass('delay6 animate__animated animate__lightSpeedInRight');
-                $('.tech7').addClass('delay7 animate__animated animate__lightSpeedInRight');
-                $('.tech8').addClass('delay8 animate__animated animate__lightSpeedInRight');
-                $('.tech9').addClass('delay9 animate__animated animate__lightSpeedInRight');
-                $('.tech10').addClass('delay10 animate__animated animate__lightSpeedInRight');
+                $('.tech1').addClass('delay1 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech2').addClass('delay2 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech3').addClass('delay3 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech4').addClass('delay4 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech5').addClass('delay5 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech6').addClass('delay6 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech7').addClass('delay7 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech8').addClass('delay8 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech9').addClass('delay9 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech10').addClass('delay10 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'skills') {
-                $('.tech1').removeClass('delay1 animate__animated animate__lightSpeedInRight');
-                $('.tech2').removeClass('delay2 animate__animated animate__lightSpeedInRight');
-                $('.tech3').removeClass('delay3 animate__animated animate__lightSpeedInRight');
-                $('.tech4').removeClass('delay4 animate__animated animate__lightSpeedInRight');
-                $('.tech5').removeClass('delay5 animate__animated animate__lightSpeedInRight');
-                $('.tech6').removeClass('delay6 animate__animated animate__lightSpeedInRight');
-                $('.tech7').removeClass('delay7 animate__animated animate__lightSpeedInRight');
-                $('.tech8').removeClass('delay8 animate__animated animate__lightSpeedInRight');
-                $('.tech9').removeClass('delay9 animate__animated animate__lightSpeedInRight');
-                $('.tech10').removeClass('delay10 animate__animated animate__lightSpeedInRight');
+                $('.tech1').removeClass('delay1 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech2').removeClass('delay2 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech3').removeClass('delay3 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech4').removeClass('delay4 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech5').removeClass('delay5 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech6').removeClass('delay6 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech7').removeClass('delay7 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech8').removeClass('delay8 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech9').removeClass('delay9 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech10').removeClass('delay10 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
             }
 
             if (destination.anchor == 'projects') {
-                $('.works').addClass('animate__animated animate__flipInX');
+                $('.works').addClass('animate__animated animate__flipInX -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'projects') {
-                $('.works').removeClass('animate__animated animate__flipInX');
+                $('.works').removeClass('animate__animated animate__flipInX -webkit-transform:transition3d(0,0,0');
             }
 
             if (destination.anchor == 'contact') {
-                $('.resume').addClass('animate__animated animate__jello');
+                $('.resume').addClass('animate__animated animate__jello -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'contact') {
-                $('.resume').removeClass('animate__animated animate__jello');
+                $('.resume').removeClass('animate__animated animate__jello -webkit-transform:transition3d(0,0,0');
             }
 
         }
