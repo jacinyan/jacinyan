@@ -14,50 +14,32 @@ $(function () {
         // effect curve
         easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1)',
         // Three parameters, new syntax, index starts from 0, anchors are predefined above 
-        // afterLoad: function (origin, destination, direction) {
-        //     var loadedSection = this;
-        //     //using anchorLink
-        //     if (destination.anchor == 'home') {
-        //         // $('.greet').addClass('animate__animated animate__fadeIn');
-        //         // $('.who').addClass('animate__animated animate__fadeIn');
-        //     }
+        afterLoad: function (origin, destination, _) {
+            if (destination.anchor == 'home') {
+                $('.greet').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
+                $('.who').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
+            }
 
-        //     if (destination.anchor == 'about') {
-        //         $('.title').addClass('animate__animated animate__slideInRight');
-        //         $('.headshot').addClass('animate__animated animate__fadeIn');
-        //         $('.text').addClass('animate__animated animate__slideInUp');
-        //     }
+            // if (origin.anchor == 'home') {
+            //     $('.greet').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
+            //     $('.who').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
+            // }
 
-        //     if (destination.anchor == 'skills') {
-        //         $('.tech1').addClass('delay1 animate__animated animate__lightSpeedInRight');
-        //         $('.tech2').addClass('delay2 animate__animated animate__lightSpeedInRight');
-        //         $('.tech3').addClass('delay3 animate__animated animate__lightSpeedInRight');
-        //         $('.tech4').addClass('delay4 animate__animated animate__lightSpeedInRight');
-        //         $('.tech5').addClass('delay5 animate__animated animate__lightSpeedInRight');
-        //         $('.tech6').addClass('delay6 animate__animated animate__lightSpeedInRight');
-        //         $('.tech7').addClass('delay7 animate__animated animate__lightSpeedInRight');
-        //         $('.tech8').addClass('delay8 animate__animated animate__lightSpeedInRight');
-        //         $('.tech9').addClass('delay9 animate__animated animate__lightSpeedInRight');
-        //         $('.tech10').addClass('delay10 animate__animated animate__lightSpeedInRight');
-        //     }
-
-        //     if (destination.anchor == 'projects') {
-        //         $('.works').addClass('animate__animated animate__flipInX');
-        //     }
-        // },
+            
+        },
         // onLeave callback is fired once the user leaves a section, in the transition to the new section
         onLeave: function (origin, destination, _) {
             // var leavingSection = this;
 
             //onLeave destination
-            if (destination.anchor == 'home') {
-                $('.greet').addClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
-                $('.who').addClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
-            }
+            // if (destination.anchor == 'home') {
+            //     $('.greet').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
+            //     $('.who').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
+            // }
 
             if (origin.anchor == 'home') {
-                $('.greet').removeClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
-                $('.who').removeClass('animate__animated animate__fadeInDown -webkit-transform:transition3d(0,0,0');
+                $('.greet').removeClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
+                $('.who').removeClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
             }
 
             if (destination.anchor == 'about') {
@@ -107,11 +89,17 @@ $(function () {
             }
 
             if (destination.anchor == 'contact') {
-                $('.resume').addClass('animate__animated animate__jello -webkit-transform:transition3d(0,0,0');
+                $('.resume').addClass('animate__animated animate__bounceInDown -webkit-transform:transition3d(0,0,0');
+                $('.email').addClass('animate__animated animate__bounceInRight -webkit-transform:transition3d(0,0,0');
+                $('.linkedin').addClass('animate__animated animate__bounceInLeft -webkit-transform:transition3d(0,0,0');
+                $('.github').addClass('animate__animated animate__bounceInRight -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'contact') {
-                $('.resume').removeClass('animate__animated animate__jello -webkit-transform:transition3d(0,0,0');
+                $('.resume').removeClass('animate__animated animate__bounceInDown -webkit-transform:transition3d(0,0,0');
+                $('.email').removeClass('animate__animated animate__bounceInRight -webkit-transform:transition3d(0,0,0');
+                $('.linkedin').removeClass('animate__animated animate__bounceInLeft -webkit-transform:transition3d(0,0,0');
+                $('.github').removeClass('animate__animated animate__bounceInRight -webkit-transform:transition3d(0,0,0');
             }
 
         }

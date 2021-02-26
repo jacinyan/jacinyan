@@ -74,7 +74,7 @@ html {
     margin: auto;
 }
 
-/* section 1 */
+/* Home */
 #fullpage .section:nth-child(1) p {
     color: #fff;
     font-size: 25px;
@@ -85,7 +85,7 @@ html {
     font-size: 50px;
 }
 
-/* section 2 */
+/* About */
 .title {
     position: relative;
     height: 84px;
@@ -135,7 +135,7 @@ html {
     float: right;
 }
 
-/* section3 */
+/* Skills */
 .skills {
     text-align: center;
     color: #fff;
@@ -193,7 +193,7 @@ html {
     animation-delay: 1s;
 }
 
-/* section4 */
+/* projects */
 .section:nth-child(4) li {
     float: left;
     width: 100%;
@@ -265,7 +265,7 @@ html {
 
 .fp-prev {
     top: 384px;
-    left: 4%!important;
+    left: 6%!important;
     /* background: url(../img/left_arrow.png) */
 }
 
@@ -275,7 +275,7 @@ html {
     /* background: url(../img/right_arrow.png) */
 }
 
-/* section 5 */
+/* Contact */
 .section:nth-child(5) {
     text-align: center;
 }
