@@ -154,43 +154,53 @@ html {
 /* lapse effect in section 3 */
 
 .delay1 {
-    animation-delay: 0.1s;
+    animation-delay: 0.025s;
+    animation-fill-mode: forwards;
 }
 
 .delay2 {
-    animation-delay: 0.2s;
+    animation-delay: 0.05s;
+    animation-fill-mode: forwards;
 }
 
 .delay3 {
-    animation-delay: 0.3s;
+    animation-delay: 0.075s;
+    animation-fill-mode: forwards;
 }
 
 .delay4 {
-    animation-delay: 0.4s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
 }
 
 .delay5 {
-    animation-delay: 0.5s;
+    animation-delay: 0.125s;
+    animation-fill-mode: forwards;
 }
 
 .delay6 {
-    animation-delay: 0.6s;
+    animation-delay: 0.15s;
+    animation-fill-mode: forwards;
 }
 
 .delay7 {
-    animation-delay: 0.7s;
+    animation-delay: 0.175s;
+    animation-fill-mode: forwards;
 }
 
 .delay8 {
-    animation-delay: 0.8s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
 }
 
 .delay9 {
-    animation-delay: 0.9s;
+    animation-delay: 0.225s;
+    animation-fill-mode: forwards;
 }
 
 .delay10 {
-    animation-delay: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
 }
 
 /* projects */

@@ -12,7 +12,7 @@ $(function () {
         // loop through the site
         continuousVertical: false,
         // effect curve
-        easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1)',
+        // easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1)',
         // Three parameters, new syntax, index starts from 0, anchors are predefined above 
         afterLoad: function (origin, destination, _) {
             if (destination.anchor == 'home') {
@@ -24,6 +24,19 @@ $(function () {
             //     $('.greet').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
             //     $('.who').addClass('animate__animated animate__swing -webkit-transform:transition3d(0,0,0');
             // }
+
+            if (destination.anchor == 'skills') {
+                $('.tech1').addClass('delay1 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech2').addClass('delay2 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech3').addClass('delay3 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech4').addClass('delay4 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech5').addClass('delay5 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech6').addClass('delay6 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech7').addClass('delay7 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech8').addClass('delay8 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech9').addClass('delay9 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech10').addClass('delay10 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            }
 
             
         },
@@ -43,49 +56,49 @@ $(function () {
             }
 
             if (destination.anchor == 'about') {
-                $('.title').addClass('animate__animated animate__slideInRight -webkit-transform:transition3d(0,0,0');
-                $('.headshot').addClass('animate__animated animate__fadeIn -webkit-transform:transition3d(0,0,0');
-                $('.text').addClass('animate__animated animate__slideInUp -webkit-transform:transition3d(0,0,0');
+                // $('.title').addClass('animate__animated animate__slideInRight -webkit-transform:transition3d(0,0,0');
+                // $('.headshot').addClass('animate__animated animate__fadeIn -webkit-transform:transition3d(0,0,0');
+                // $('.text').addClass('animate__animated animate__slideInUp -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'about') {
-                $('.title').removeClass('animate__animated animate__slideInRight -webkit-transform:transition3d(0,0,0');
-                $('.headshot').removeClass('animate__animated animate__fadeIn -webkit-transform:transition3d(0,0,0');
-                $('.text').removeClass('animate__animated animate__slideInUp -webkit-transform:transition3d(0,0,0');
+                // $('.title').removeClass('animate__animated animate__slideInRight -webkit-transform:transition3d(0,0,0');
+                // $('.headshot').removeClass('animate__animated animate__fadeIn -webkit-transform:transition3d(0,0,0');
+                // $('.text').removeClass('animate__animated animate__slideInUp -webkit-transform:transition3d(0,0,0');
             }
 
-            if (destination.anchor == 'skills') {
-                $('.tech1').addClass('delay1 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech2').addClass('delay2 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech3').addClass('delay3 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech4').addClass('delay4 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech5').addClass('delay5 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech6').addClass('delay6 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech7').addClass('delay7 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech8').addClass('delay8 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech9').addClass('delay9 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech10').addClass('delay10 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-            }
+            // if (destination.anchor == 'skills') {
+            //     $('.tech1').addClass('delay1 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech2').addClass('delay2 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech3').addClass('delay3 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech4').addClass('delay4 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech5').addClass('delay5 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech6').addClass('delay6 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech7').addClass('delay7 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech8').addClass('delay8 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech9').addClass('delay9 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            //     $('.tech10').addClass('delay10 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+            // }
 
             if (origin.anchor == 'skills') {
-                $('.tech1').removeClass('delay1 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech2').removeClass('delay2 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech3').removeClass('delay3 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech4').removeClass('delay4 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech5').removeClass('delay5 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech6').removeClass('delay6 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech7').removeClass('delay7 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech8').removeClass('delay8 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech9').removeClass('delay9 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
-                $('.tech10').removeClass('delay10 animate__animated animate__lightSpeedInRight -webkit-transform:transition3d(0,0,0');
+                $('.tech1').removeClass('delay1 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech2').removeClass('delay2 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech3').removeClass('delay3 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech4').removeClass('delay4 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech5').removeClass('delay5 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech6').removeClass('delay6 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech7').removeClass('delay7 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech8').removeClass('delay8 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech9').removeClass('delay9 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
+                $('.tech10').removeClass('delay10 animate__animated animate__tada -webkit-transform:transition3d(0,0,0');
             }
 
             if (destination.anchor == 'projects') {
-                $('.works').addClass('animate__animated animate__flipInX -webkit-transform:transition3d(0,0,0');
+                $('.works').addClass('animate__animated animate__flipInY -webkit-transform:transition3d(0,0,0');
             }
 
             if (origin.anchor == 'projects') {
-                $('.works').removeClass('animate__animated animate__flipInX -webkit-transform:transition3d(0,0,0');
+                $('.works').removeClass('animate__animated animate__flipInY -webkit-transform:transition3d(0,0,0');
             }
 
             if (destination.anchor == 'contact') {
