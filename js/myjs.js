@@ -2,7 +2,7 @@
 $(function () {
     $('#fullpage').fullpage({
         // set the colour of each section for testing
-        sectionsColor: ['#060608', '#7a6f61', '#060608', '#7a6f61', '#060608'],
+        sectionsColor: ['#060608', '#2f4f96', '#060608', '#9b906f', '#040608'],
         // navigation dots on the right
         navigation: true,
         // set a corresponding anchor for each section
