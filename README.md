@@ -15,13 +15,8 @@ A little about me:
 - 🛠 I am quite passionate about JavaScript but always keen on adding more to my tech stack
 - 😂 I am a fan of memes...
 
-Reach out to me by [<i class="fas fa-envelope"></i>](mailto:jacinjiyan@gmail.com), or find me on [<i class="fab fa-twitter"></i>](https://twitter.com/jacinjiyan) and [<i class="fab fa-linkedin"></i>](https://www.linkedin.com/in/jacin-ji-yan) !
+Reach out to me by [Email](mailto:jacinjiyan@gmail.com), or find me on [Twitter](https://twitter.com/jacinjiyan) and [Linkedin](https://www.linkedin.com/in/jacin-ji-yan) !
 
 [![Jacin's GitHub stats](https://github-readme-stats.vercel.app/api?username=jacinyan&theme=algolia&show_icons=true)](https://github.com/jacinyan/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jacinyan&layout=compact&theme=algolia)](https://github.com/jacinyan/github-readme-stats)
 
-<head> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
-</head> 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
