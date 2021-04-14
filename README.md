@@ -4,8 +4,9 @@
 ![](https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=black&style=flat)
 ![](https://img.shields.io/badge/-NodeJS-339933?logo=Node.js&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-MongoDB-47A248?logo=Node.js&logoColor=white&style=flat)
+![](https://img.shields.io/badge/-PostgreSQL-336791?logo=PostgreSQL&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-Ruby-CC342D?logo=Ruby&logoColor=white&style=flat)
-![](https://img.shields.io/badge/-Ruby on Rails-CC342D?logo=Ruby-on-Rails =white =flat)
+![](https://img.shields.io/badge/-Sass-CC6699?logo=Sass&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-Git-F05032?logo=Git&logoColor=white&style=flat)
 
 A little about me:
