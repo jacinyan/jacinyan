@@ -13,9 +13,8 @@
 
 A little about me:
 
-- 🧮 I have an degree in civil engineering
-- 👨🏻‍💻 I am now going down a tech career path
-- 🛠 I enjoy computer science
+- 🧮 I have a degree in some other engineering discpline
+- 👨🏻‍💻 I enjoy computer science and now going down a tech career path 
 - 🤓 I am a fan of memes...
 
 Reach out to me by [Email](mailto:jacinjiyan@gmail.com), or find me on [Twitter](https://twitter.com/jacinjiyan) and [Linkedin](https://www.linkedin.com/in/jacin-ji-yan) !
