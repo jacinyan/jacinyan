@@ -13,10 +13,10 @@
 
 A little about me:
 
-- 🧮 I used to calculate force for building houses and apartments
-- 👨🏻‍💻 I am now a web developer based in Sydney
-- 🛠 I am quite passionate about frontend development but always keen on adding more to my tech stack
-- 😂 I am a fan of memes...
+- 🧮 I have an degree in civil engineering
+- 👨🏻‍💻 I am now going down a tech career path
+- 🛠 I enjoy computer science
+- 🤓 I am a fan of memes...
 
 Reach out to me by [Email](mailto:jacinjiyan@gmail.com), or find me on [Twitter](https://twitter.com/jacinjiyan) and [Linkedin](https://www.linkedin.com/in/jacin-ji-yan) !
 
