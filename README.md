@@ -1,5 +1,6 @@
 # Hi, I'm Jacin👋🏻
 
+![](https://img.shields.io/badge/-Python-F7DF1E?logo=JavaScript&logoColor=black&style=flat)
 ![](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=JavaScript&logoColor=black&style=flat)
 ![](https://img.shields.io/badge/-TypeScript-2f78c3?logo=TypeScript&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-ReactJS-61DAFB?logo=react&logoColor=black&style=flat)
