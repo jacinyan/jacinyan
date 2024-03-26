@@ -1,6 +1,7 @@
 # Hi, I'm Jacin👋🏻
 
 ![](https://img.shields.io/badge/-C-424EAA?logo=C&logoColor=white&style=flat)
+![](https://img.shields.io/badge/-Bash-303239?logo=zsh&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-Python-2f78c3?logo=Python&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=JavaScript&logoColor=black&style=flat)
 ![](https://img.shields.io/badge/-TypeScript-2f78c3?logo=TypeScript&logoColor=white&style=flat)
