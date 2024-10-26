@@ -1,5 +1,6 @@
 # Hi, I'm Jacin👋🏻
 
+![](https://img.shields.io/badge/-Rust-FFFFFF?logo=rust&logoColor=black&style=flat)
 ![](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-C-424EAA?logo=C&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/-Bash-303239?logo=ZSH&logoColor=white&style=flat)
